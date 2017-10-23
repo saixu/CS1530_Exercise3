@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "Main"
+mainClassName = "exe3.Main"
 
 repositories
 {
@@ -11,6 +11,7 @@ dependencies
 {
 	testCompile 'junit:junit:4.12'
 }
+
 run {
     try {
         systemProperties System.getProperties()
